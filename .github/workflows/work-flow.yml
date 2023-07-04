@@ -3,7 +3,7 @@ name: 'AWS DEPLOY CODE'
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-app:
