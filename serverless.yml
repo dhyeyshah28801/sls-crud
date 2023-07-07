@@ -17,7 +17,6 @@ provider:
   stage: 'dev'
 
 plugins:
-  - serverless-offline
 
 # The `functions` block defines what code to deploy
 functions:
