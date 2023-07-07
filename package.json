@@ -4,11 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "deploy": "serverless deploy --stage dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "dev-dependencies": {},
   "dependencies": {
-    "serverless-offline-s3": "^6.2.3"
+    "serverless": "^3.33.0"
   }
 }
